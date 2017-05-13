@@ -1,0 +1,28 @@
+<table class="table table-hover table-striped">
+  <tr>
+    <th>Щастливеца</th>
+    <td><%= @votes.fetch('Щастливеца', 0) %></td>
+    <td><%= '@' * (@votes.fetch('Щастливеца', 0)) %></td>
+  </tr>
+  <tr>
+    <th>The little things</th>
+    <td><%= @votes.fetch('The little things', 0) %></td>
+    <td><%= '@' * (@votes.fetch('The little things', 0)) %></td>
+  </tr>
+  <tr>
+    <th>онова място в пресечка на ул.Оборище</th>
+    <td><%= @votes.fetch('онова място в пресечка на ул.Оборище', 0) %></td>
+    <td><%= '@' * (@votes.fetch('онова място в пресечка на ул.Оборище', 0)) %></td>
+  </tr>
+  <tr>
+    <th>Слънце Луна</th>
+    <td><%= @votes.fetch('Слънце Луна', 0) %></td>
+    <td><%= '@' * (@votes.fetch('Слънце Луна', 0)) %></td>
+  </tr>
+   <tr>
+    <th>Soul kitchen</th>
+    <td><%= @votes.fetch('Soul kitchen', 0) %></td>
+    <td><%= '@' * (@votes.fetch('Soul kitchen', 0)) %></td>
+  </tr>
+</table>
+<p><a href="/">Гласувайте още</a></p>
